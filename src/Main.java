@@ -34,36 +34,5 @@ public class Main {
             }
             System.out.println(e.ficharSalida());
         }
-
-        /*
-        for (Empleado e : empleados) {
-            if (e instanceof Medico) {
-                System.out.println(e.descripcion());
-                System.out.println(e.ficharEntrada());
-                System.out.println(((Medico) e).consultarPrueba("Radiografia"));
-                System.out.println(((Medico) e).emitirReceta("Pepe", "Ibuprofeno"));
-                System.out.println(e.ficharSalida() + "\n");
-            }
-            if (e instanceof Enfermero) {
-                System.out.println(e.descripcion());
-                System.out.println(e.ficharEntrada());
-                System.out.println(((Enfermero) e).registrarPruebas("Radiografia"));
-                System.out.println(e.ficharSalida() + "\n");
-            }
-            if (e instanceof Recepcionista) {
-                System.out.println(e.descripcion());
-                System.out.println(e.ficharEntrada());
-                System.out.println(((Recepcionista) e).emitirReceta("Juanjo", "Paracetamol"));
-                System.out.println(e.ficharSalida() + "\n");
-            }
-            if (e instanceof Contable) {
-                System.out.println(e.descripcion());
-                System.out.println(e.ficharEntrada());
-                System.out.println(((Contable) e).emitirFactura("1300€ café"));
-                System.out.println(e.ficharSalida() + "\n");
-            }
-        }*/
-
-
     }
 }
